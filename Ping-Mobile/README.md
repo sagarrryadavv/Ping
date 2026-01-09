@@ -32,11 +32,24 @@ Ping solves this by making every conversation a shared **event** rather than a d
 
 ## 📸 Screenshots
 
-| Home Screen | Chat Room | Voting |
-|:---:|:---:|:---:|
-| ![Home](https://placehold.co/200x400?text=Home+Screen) | ![Chat](https://placehold.co/200x400?text=Chat+UI) | ![Vote](https://placehold.co/200x400?text=Voting+UI) |
-
----
+<table align="center">
+  <tr>
+    <th>Home Screen</th>
+    <th>Chat Room</th>
+    <th>Voting</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/2a9d2ed2-3e4a-4ce7-9325-f80a683c09c9" width="250"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e89c0eaf-08b6-484b-938b-2a9a87e0b66b" width="250"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/1a3b2d06-146b-4b1c-a5c3-657fb0335ca5" width="250"/>
+    </td>
+  </tr>
+</table>
 
 ## 🛠️ Tech Stack
 
@@ -163,7 +176,7 @@ Contributions are welcome! 🚀
 ## 📞 Contact
 **Sagar Yadav**
 
-* [LinkedIn](https://www.linkedin.com/in/your-profile-here)
+* [LinkedIn](linkedin.com/in/sagarrryadavv/)
 * [GitHub](https://github.com/sagarrryadavv)
 
 **Project Link:** [https://github.com/sagarrryadavv/Ping](https://github.com/sagarrryadavv/Ping)
