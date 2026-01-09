@@ -1,0 +1,38 @@
+# -----------------------
+# CORE FLUTTER IGNORABLES
+# -----------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+.idea/
+.vscode/
+
+# -----------------------
+# SECRETS (ABSOLUTELY DO NOT REMOVE)
+# -----------------------
+
+# 1. Firebase Config (Generated keys)
+lib/firebase_options.dart
+
+# 2. Android Secrets
+android/app/google-services.json
+android/key.properties
+**/*.keystore
+**/*.jks
+
+# 3. iOS Secrets
+ios/Runner/GoogleService-Info.plist
+
+# 4. Service Account Keys (Fail-safe for googleapis_auth)
+assets/service-account.json
+assets/*.json
+
+# -----------------------
+# OS JUNK FILES
+# -----------------------
+.DS_Store
+Thumbs.db

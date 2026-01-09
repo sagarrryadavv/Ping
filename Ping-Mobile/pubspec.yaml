@@ -1,0 +1,59 @@
+name: Ping
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- UI & FONTS ---
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  fluttermoji: ^1.0.2
+  flutter_svg: ^2.2.3
+  url_launcher: ^6.3.2
+  font_awesome_flutter: ^10.12.0 # For modern social media icons
+
+  # --- CORE BACKEND (FIREBASE) ---
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.2
+  google_sign_in: ^6.2.1
+  webview_flutter: ^4.13.0
+
+  # --- NOTIFICATIONS (FCM) ---
+  firebase_messaging: ^15.0.3
+  flutter_local_notifications: ^17.1.2
+  http: ^1.2.0
+  googleapis_auth: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  
+  # ⚠️ Dev dependency for generating launcher icons (Android/iOS/Web)
+  flutter_launcher_icons: "^0.13.0" 
+
+# --- FLUTTER LAUNCHER ICONS CONFIGURATION ---
+flutter_launcher_icons:
+  android: true # ⚠️ Ensures icons are generated for Android
+  ios: true
+  image_path: "assets/icon/icon.png" # Place your 1024x1024 icon here
+  web:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    background_color: "#0D0D0D"
+    theme_color: "#FFC0CB"
+
+
+flutter:
+  uses-material-design: true
+
+# Your existing googleapis_auth entry (can be removed if placed under dependencies)
+googleapis_auth: ^1.5.0

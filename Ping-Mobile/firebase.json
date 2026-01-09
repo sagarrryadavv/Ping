@@ -1,0 +1,42 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "functions": {
+    "source": "functions"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ping-rooms",
+          "appId": "1:758630947954:android:971a9b8479b2c51b3936eb",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ping-rooms",
+          "configurations": {
+            "android": "1:758630947954:android:971a9b8479b2c51b3936eb",
+            "ios": "1:758630947954:ios:8d55347898d9baba3936eb",
+            "macos": "1:758630947954:ios:8d55347898d9baba3936eb",
+            "web": "1:758630947954:web:6750b7d210301a813936eb",
+            "windows": "1:758630947954:web:e69439e7673e0c823936eb"
+          }
+        }
+      }
+    }
+  }
+}
